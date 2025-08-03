@@ -12,16 +12,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api-with-bugs.practicesoftwaretesting.com/api/favorites",
+					"raw": "https://api-with-bugs.practicesoftwaretesting.com/favorites",
 					"protocol": "https",
 					"host": [
 						"api-with-bugs",
 						"practicesoftwaretesting",
 						"com"
 					],
-					"port": "",
 					"path": [
-						"api",
 						"favorites"
 					]
 				}
@@ -43,16 +41,14 @@
 					"raw": "{\n    \"productId\": {{productId}},\n    \"userId\": {{userId}}\n}"
 				},
 				"url": {
-					"raw": "https://api-with-bugs.practicesoftwaretesting.com/api/favorites",
+					"raw": "https://api-with-bugs.practicesoftwaretesting.com/favorites",
 					"protocol": "https",
 					"host": [
 						"api-with-bugs",
 						"practicesoftwaretesting",
 						"com"
 					],
-					"port": "",
 					"path": [
-						"api",
 						"favorites"
 					]
 				}
@@ -65,16 +61,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api-with-bugs.practicesoftwaretesting.com/api/favorites/{{favoriteId}}",
+					"raw": "https://api-with-bugs.practicesoftwaretesting.com/favorites/{{favoriteId}}",
 					"protocol": "https",
 					"host": [
 						"api-with-bugs",
 						"practicesoftwaretesting",
 						"com"
 					],
-					"port": "",
 					"path": [
-						"api",
 						"favorites",
 						"{{favoriteId}}"
 					]
@@ -88,16 +82,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://api-with-bugs.practicesoftwaretesting.com/api/favorites/{{favoriteId}}",
+					"raw": "https://api-with-bugs.practicesoftwaretesting.com/favorites/{{favoriteId}}",
 					"protocol": "https",
 					"host": [
 						"api-with-bugs",
 						"practicesoftwaretesting",
 						"com"
 					],
-					"port": "",
 					"path": [
-						"api",
 						"favorites",
 						"{{favoriteId}}"
 					]
